@@ -15,7 +15,7 @@ import {
   TouchableHighlight,
 
 } from 'react-native';
-
+//关键代码
 var {
   NativeModules
 } = require('react-native');
@@ -48,6 +48,7 @@ class RN2iOSNative extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
+        
         <CustomButton text='React Native调用访问iOS'
             onPress={()=>RNBridgeModule.RNOpenVC('测试')}
         />

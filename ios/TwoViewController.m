@@ -17,10 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//  self.view.backgroundColor = [UIColor whiteColor];
-//  UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 200, 100)];
-//  label.text = @"你好我是第二个页面";
-//  [self.view addSubview:label];
     // Do any additional setup after loading the view from its nib.
 }
 - (IBAction)goBlackMethod:(id)sender {
